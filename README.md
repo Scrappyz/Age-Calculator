@@ -7,7 +7,6 @@ Age-Calculator is used in the command line for quick use.
 AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME>
 AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME> 
 ```
-<br>
 If the future date and time is not specified, future date and time will default to the date and time on your machine.
 ### Options
 * -h, --help            Displays help text
