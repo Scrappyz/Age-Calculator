@@ -42,7 +42,7 @@ void Main::printHelp()
 {
     cout << "Format:" << endl;
     cout << "  " << program_name << " <OPTIONS> <DATE> <TIME>" << endl;
-    cout << "  " << program_name << " <OPTIONS> <PAST_DATE> <PAST_TIME> - <CURRENT_DATE> <CURRENT_TIME>" << endl;
+    cout << "  " << program_name << " <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME>" << endl;
     cout << "Options:" << endl;
     cout << "  -h, --help                           Displays help text" << endl;
     cout << "  -a, --all                            Displays all info" << endl;
@@ -96,7 +96,7 @@ int main(int argc, char* argv[])
         if(past.isValidDate() && present.isValidDate()) {
             cout << "Past date: ";
             past.printDate();
-            cout << "Present date: ";
+            cout << "Future date: ";
             present.printDate();
         } else {
             cerr << "[Invalid Date]" << endl;
