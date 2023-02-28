@@ -10,4 +10,4 @@ file(GLOB_RECURSE SOURCES src/*.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-target_link_libraries(${PROJECT_NAME} PRIVATE -fPIC -static -static-libgcc -static-libstdc++)
+target_link_libraries(${PROJECT_NAME} PRIVATE -static-libgcc -static-libstdc++)
