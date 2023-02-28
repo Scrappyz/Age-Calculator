@@ -3,8 +3,11 @@ Find someone's exact age by inputting their date of birth.
 ## How to Use
 Age-Calculator is used in the command line for quick use.
 ### Format 
-* AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME>
-* AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME>
+```
+AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME>
+AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME> 
+```
+<br>
 If the future date and time is not specified, future date and time will default to the date and time on your machine.
 ### Options
 * -h, --help            Displays help text
@@ -16,7 +19,7 @@ If the future date and time is not specified, future date and time will default 
 * -mm, --minutes        Displays age in minutes
 * -s, --seconds         Displays age in seconds
 ### Examples
-###### Example 1
+##### Example 1
 ```
 AgeCalculator.exe -a 7/28/2022 12:30:30am
 Past date: July 28, 2022 12:30:30 am
