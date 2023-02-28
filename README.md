@@ -19,7 +19,7 @@ If the future date and time is not specified, future date and time will default 
 -s, --seconds         Displays age in seconds
 ```
 ### Examples
-###### Example 1
+##### Example 1
 Input:
 ```
 AgeCalculator.exe -a 7/28/2022 12:30:30am
@@ -33,7 +33,7 @@ You are 0 years, 7 months, 0 days, 1 hours, 50 minutes, 18 seconds old...
 In this example, the future date and time was not specified. So future date defaults to the time the program was executed, which is <br>
 Feb 28, 2023 02:20:48 pm.
 
-###### Example 2
+##### Example 2
 Input:
 ```
 AgeCalculator.exe -a 8/28/2021 12:00:00am - 7/28/2022 12:30:30pm
@@ -46,7 +46,7 @@ You are 0 years, 10 months, 29 days, 12 hours, 30 minutes, 30 seconds old...
 ```
 In this example, the future date is specified.
 
-###### Example 3
+##### Example 3
 Input:
 ```
 AgeCalculator.exe -a 8/28/2021 - 7/28/2022
