@@ -1,8 +1,6 @@
 # **Age Calculator**
 Find someone's exact age by their date of birth. Have you ever forgotten your age before? Because I have.
 ## **How to Use**
-<hr style="border: 0.5px solid gray">
-
 ```
 AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME>
 AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME> 
