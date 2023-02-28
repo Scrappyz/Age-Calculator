@@ -30,7 +30,7 @@ Past date: July 28, 2022 12:30:30am
 Future date: February 28, 2023 02:20:48pm
 You are 0 years, 7 months, 0 days, 1 hours, 50 minutes, 18 seconds old...
 ```
-In this example, the future date and time was not specified. So future date defaults to the time the program was executed, which is <br>
+In this example, the future date and time was not specified. So future date defaults to the time the program was executed, which is
 Feb 28, 2023 02:20:48 pm.
 
 ###### Example 2
@@ -57,4 +57,4 @@ Past date: August 28, 2021 12:00:00am
 Future date: July 28, 2022 12:00:00am
 You are 0 years, 11 months, 0 days, 0 hours, 0 minutes, 0 seconds old...
 ```
-In this example, both dates are specified but their times are not. If the time is not specified, it will default to 12:00:00 am.
+In this example, both dates are specified but their times are not. If the time is not specified, it will default to <br> 12:00:00 am.
