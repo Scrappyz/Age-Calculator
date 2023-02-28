@@ -43,7 +43,7 @@ void Time::printTime(bool military_time)
         cout << "0";
     cout << temp_seconds;
     if(!military_time)
-        cout << " " << period;
+        cout << period;
     cout << endl;
 }
 
