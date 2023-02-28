@@ -7,8 +7,7 @@ AgeCalculator.exe <OPTIONS> <PAST_DATE> <PAST_TIME> - <FUTURE_DATE> <FUTURE_TIME
 ```
 Date format to be used is **MM/DD/YYYY** <br>
 If the future date and time is not specified, future date and time will default to the date and time on your machine. 
-### **Options**
-***
+## **Options**
 ```
 -h, --help            Displays help text
 -a, --all             Displays all info 
