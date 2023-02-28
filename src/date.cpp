@@ -40,8 +40,9 @@ void Date::setDate()
 void Date::setDate(vector<string>& args) // get date from command line argument
 {
     string d;
+    int input_dates = 0; // used to prevent reading of additional dates eg: 7/27/2022 13:30:30 7/22/2002
     for(int i = 0; i<args.size(); i++) {
-        if(args[i] == "-") {
+        if(args[i] == "-" || input_dates > 1) {
             args.erase(args.begin()+i);
             break;
         }
@@ -49,6 +50,7 @@ void Date::setDate(vector<string>& args) // get date from command line argument
         args.erase(args.begin()+i);
         i--;
         d += " ";
+        input_dates++;
     }
     parseDate(d);
 }
@@ -67,7 +69,6 @@ void Date::setDateToday()
 void Date::parseDate(const string& str)
 {
     stringstream ss(str);
-    //cout << "STR MONTH: "<< str << endl;
     char ch;
     int i = 1;
     while(ss.get(ch)) {
