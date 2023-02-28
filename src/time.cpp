@@ -50,11 +50,10 @@ void Time::printTime(bool military_time)
 void Time::parseTime(const string& str)
 {
     stringstream ss(str);
-    //cout << "STR TIME: " << str << endl;
     string period;
     char ch;
     int i = 1;
-    while(ss.get(ch)) {
+    while(ss.get(ch) && i <= 4) {
         if(ch >= '0' && ch <= '9') {
             ss.unget();
             switch(i) {
@@ -74,9 +73,7 @@ void Time::parseTime(const string& str)
         } else if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
             ss.unget();
             ss >> period;
-            //cout << "Period: " << period << endl;
             if(period != "am" && period != "pm" && period != "AM" && period != "PM") {
-                //cerr << "FALSE" << endl;
                 period.clear();
             }
         }
