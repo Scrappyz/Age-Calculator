@@ -57,4 +57,4 @@ Past date: August 28, 2021 12:00:00am
 Future date: July 28, 2022 12:00:00am
 You are 0 years, 11 months, 0 days, 0 hours, 0 minutes, 0 seconds old...
 ```
-In this example, both dates are specified but their times are not. If the time is not specified, it will default to <br> 12:00:00 am.
+In this example, both dates are specified but their times are not. If the time is not specified, it will default to <br> 12:00:00am.
