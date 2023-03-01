@@ -128,7 +128,6 @@ void Age::setAll(const Date& past, const Date& present) // Formula: if past <= p
     }
     if(months < 0) {
         months = 12 + months;
-        years--;
     }
     if(years < 0)
         years = 0;
