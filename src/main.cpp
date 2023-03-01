@@ -78,6 +78,11 @@ int main(int argc, char* argv[])
     vector<string> args;
     args.assign(argv+1, argv+argc);
 
+    if(argc == 1) {
+        Main::printHelp();
+        return 0;
+    }
+
     if(args.size() > 0) { // cmd mode
         Main::setFlags(args);
         if(Main::getFlag("-h") || Main::getFlag("--help")) {
